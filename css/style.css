@@ -140,9 +140,9 @@ main section#mainAD {
 }
 
 main section#mainAD div {
-    /* position: absolute;
+    position: absolute;
     top: 72px;
-    z-index: 1; */
+    z-index: 1;
     width: 100vw;
     height: 35vw;
     background:linear-gradient(180deg, #707070 68%, rgba(112, 112, 112, 0) 100%);
@@ -150,7 +150,8 @@ main section#mainAD div {
 
 /* main_content */
 main section#contents {
-    margin: 64px;
+    margin: 0 64px;
+    margin-top: 23vw;
 }
 
 main section#contents .content_class {
@@ -161,7 +162,7 @@ main section#contents .content_class {
 }
 
 main section#contents .content_name {
-    
+    z-index: 2;
 }
 
 main section#contents .content_more {
@@ -169,21 +170,24 @@ main section#contents .content_more {
     font-size:1.2vw;
     text-decoration:none;
     color:rgba(255, 255, 255,0.7); 
-
+    z-index: 2;
 }
 
 main section#contents .content {
     margin-left:0px;
+    
 }
 
 main section#contents .content ul {
     display: flex;
     flex-flow: row nowrap;
+    margin-bottom: 1.7vw;
 }
 
 main section#contents .content ul li {
     width: 25%;
     margin-right: 8px;
+    z-index: 2;
 }
 
 main section#contents .content a {
@@ -195,7 +199,6 @@ main section#contents .content .content_thumbnail {
     height: 11vw;
     display:block;
     background-color:#C4C4C4;
-    
 }
 
 main section#contents .content .content_title {
