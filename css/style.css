@@ -22,6 +22,12 @@ h3 {
     margin: 0.5vw;
 }
 
+address {
+    font-style:normal;
+    margin:0;
+    padding:0;
+}
+
 /* margin(유동형)*/
 @media(min-width:1201px) {
     header #headerLeft {
@@ -240,6 +246,10 @@ main section#contents .content .content_title {
 }
 
 /* footer */
+footer{
+    
+}
+
 footer #siteMapWrap {
     display: flex;
     flex: row;
@@ -262,6 +272,75 @@ footer #siteMapWrap .siteMap .siteMap_title{
 
 footer #siteMapWrap .siteMap .siteMap_content{
     margin:8px 0;
+}
+
+/* footer */
+#footer {
+    display: flex;
+    flex:row;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-size:14px;
+    background: #000000;
+    padding: 24px 64px;  
+    color:#ccc;
+}
+
+#footer a {
+    color:#ccc;
+    text-decoration: none;
+}
+#footer a:hover {
+    text-decoration: underline;
+}
+
+.footer_column {
+    
+}
+
+.footer_column ul{
+    display: flex;
+    flex-flow:row;
+}
+
+.footer_rule{
+    margin-bottom: 24px;
+}
+
+.footer_column ul li{
+    margin-bottom: 8px;
+    margin-right: 8px;
+    color: #ccc;
+}
+
+.comp_info a {
+    color:#666666 !important;
+}
+
+.comp_info ul li {
+    color:#666666;
+}
+
+.share ul li {
+    margin-left: 12px;
+}
+
+.share_facebook {
+    width: 32px;
+    height: 32px;
+    background: url(../img/footer_share_facebook.svg)
+}
+
+.share_twitter {
+    width: 32px;
+    height: 32px;
+    background: url(../img/footer_share_twitter.svg)
+}
+
+.share_instagram {
+    width: 32px;
+    height: 32px;
+    background: url(../img/footer_share_instagram.svg)
 }
 
 /* icon */
