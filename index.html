@@ -15,18 +15,23 @@
         <li>
           <nav>
             <ul>
-              <li class="menu menu-active">menu1</li>
-              <li class="menu">menu2</li>
-              <li class="menu">menu3</li>
+              <li class="menu menu-active">홈</li>
+              <li class="menu">이력서</li>
             </ul>
           </nav>
         </li>
       </ul>
       <ul id="headerRight">
-        <!-- <input type="text" id="searchArea" placeholder="제목, 태그검색"> -->
-        <li class="setting"><span class="search_icon"></span>검색</li>
-        <li class="setting">설정</li>
-        <li class="setting">닉네임<span class="dropDwon_icon"></span></li>
+        <div id="searchArea">
+          <label for="search" class="search-black_icon"></label>
+          <input id="search" type="text" placeholder="제목, 태그검색" />
+        </div>
+        <li class="setting">
+          <label for="search"><span class="search_icon"></span>검색</label>
+        </li>
+        <li class="setting">
+          로그인<!--<span class="dropDwon_icon"></span>-->
+        </li>
       </ul>
     </header>
     <main>
