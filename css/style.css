@@ -87,7 +87,8 @@ header #headerLeft li#logo a {
   display: block;
   text-decoration: none;
   color: #fff;
-  font-size: 24px;
+  font-size: 20px;
+  font-weight: bold;
   background: url(../img/91_logo.svg) no-repeat;
   background-size: contain;
   padding-left: 63px;
@@ -118,6 +119,15 @@ header #headerLeft li.menu.menu-active {
 header #headerRight {
   display: flex;
   flex-flow: row nowrap;
+}
+
+header #headerRight a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+header #headerRight a:hover {
+  color: #fff;
 }
 
 header #headerRight li.setting {
