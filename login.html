@@ -8,18 +8,28 @@
     <title>Login - 빠른91 만우절</title>
   </head>
   <body>
-    <form action="" method="get">
-      <div></div>
-      <input type="text" name="" id="" />
-      <input type="password" name="" id="" />
-      <div>오류메시지 표시</div>
-      <input type="button" value="" />
-      <ul>
+    <main id="login_wrap">
+      <div class="logo"><a href="./index.html">빠른91 만우절</a></div>
+      <form action="" method="get">
+        <fieldset class="login_area">
+          <legend class="blind">로그인</legend>
+          <div class="text_area">
+            <input type="text" name="" id="id_box" placeholder="아이디" />
+          </div>
+          <div class="text_area">
+            <input type="password" name="" id="pw_box" placeholder="비밀번호" />
+          </div>
+          <div class="error">에러 메시지!</div>
+          <input class="login_button" type="button" value="로그인" />
+        </fieldset>
+      </form>
+      <ul id="signup">
         <li><a href="">회원가입</a></li>
+        <li>|</li>
         <li><a href="">아이디</a></li>
         <li>|</li>
         <li><a href="">비밀번호</a></li>
       </ul>
-    </form>
+    </main>
   </body>
 </html>
