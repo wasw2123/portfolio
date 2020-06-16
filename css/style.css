@@ -418,6 +418,8 @@ footer #siteMapWrap .siteMap .siteMap_content {
   margin: 24px;
   width: 600px;
   height: 60px;
+  font-size: 24px;
+  font-weight: bold;
   border-radius: 8px;
   border: none;
   color: #c4c4c4;
@@ -450,6 +452,13 @@ footer #siteMapWrap .siteMap .siteMap_content {
   text-decoration: underline;
 }
 
+.login_notice {
+  border: 1px solid #fff;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 32px;
+  box-sizing: border-box;
+}
 /* icon */
 .rightArrow_icon {
   position: relative;
