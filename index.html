@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="./css/style.css" />
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
+    <script defer src="./js/script.js"></script>
     <title>빠른91 만우절</title>
   </head>
 
@@ -22,9 +24,11 @@
         </li>
       </ul>
       <ul id="headerRight">
-        <div id="searchArea">
+        <div id="searchArea" style="display: none;">
           <label for="search" class="search-black_icon"></label>
-          <input id="search" type="text" placeholder="제목, 태그검색" />
+          <form action="" method="get">
+            <input id="search" type="text" placeholder="제목, 태그검색" />
+          </form>
         </div>
         <li class="setting">
           <label for="search"><span class="search_icon"></span>검색</label>
@@ -326,5 +330,6 @@
         </li>
       </ul>
     </footer>
+    <script></script>
   </body>
 </html>
