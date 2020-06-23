@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+  font-family: "Noto Sans KR", "Apple SD Gothic Neo", "roboto";
+}
+body,
+ul,
+li {
+  padding: 0;
+  margin: 0;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+.header {
+  height: 72px;
+  background: #fcf7ea;
+}
+
+.logo {
+  display: block;
+  font-size: 24px;
+  padding-left: 64px;
+  height: 72px;
+  line-height: 72px;
+  background: url(./img/91_logo.svg) no-repeat;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* aside_calendar */
+.calendar {
+  background: #fcf7ea;
+  width: 430px;
+  border-radius: 4px;
+  padding: 8px;
+}
+
+.calendar_header {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  margin: 8px;
+}
+
+.calendar_header_month {
+  width: 30%;
+  text-align: center;
+}
+
+.calendar_header_prov {
+  background: url(./img/chevron-left.svg) no-repeat;
+  width: 24px;
+  height: 24px;
+}
+
+.calendar_header_next {
+  background: url(./img/chevron-right.svg) no-repeat;
+  width: 24px;
+  height: 24px;
+}
+
+.schedule_dayName {
+  display: flex;
+  flex-flow: row;
+}
+
+.calendar_date {
+  border: 1px solid #000000;
+  border-radius: 8px;
+}
+
+.calendar_date ul {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  padding: 8px 0px;
+}
+
+.calendar_date_dayName {
+  border-bottom: 1px dotted #000000;
+}
+
+.calendar_dayName-sun,
+.calendar_number-sun {
+  color: #f1426c;
+}
+
+.calendar_dayName-sat,
+.calendar_number-sat {
+  color: #1f64e9;
+}
